@@ -131,5 +131,8 @@
     "test:watch": "pnpm vitest",
     "test": "pnpm vitest run",
     "prepublishOnly": "tsx ../../scripts/check-versions.ts"
+  },
+  "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated"
   }
 }
