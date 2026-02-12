@@ -2,7 +2,7 @@ import { queryRef, executeQuery, mutationRef, executeMutation, validateArgs } fr
 
 export const connectorConfig = {
   connector: 'example',
-  service: 'skyblue',
+  service: 'skyblue-1',
   location: 'us-east4'
 };
 
